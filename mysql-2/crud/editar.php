@@ -35,7 +35,7 @@ $user = $result->fetch_assoc();
 
     <form action="/PHP_Draft/mysql-2/crud/editar.php?id=<?php echo $user['id']; ?>" method="post">
         <input type="text" name="email" value="<?php echo $user['email']; ?>">
-        <input type="submit" value="enviar">
+        <input type="submit" value="Alterar">
     </form>
 
     <p><a href="/PHP_Draft/mysql-2/crud/">voltar</a></p>
